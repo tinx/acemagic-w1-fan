@@ -1,0 +1,23 @@
+PNPCFG chip ID 0x5570, version 0x02
+I2EC ECHIPID1/2/VER (0x2000-02): 55 70 02
+BADRSEL=0x02  SPCTRL1=0xc3  -> I2EC is READ-WRITE
+
+PWM block 0x1800-0x185F:
+  1800: 00 c8 00 00 c8 00 15 00 00 00 00 02 10 01 00 00
+  1810: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  1820: 2b 04 00 02 00 00 00 01 00 00 00 00 00 00 00 00
+  1830: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  1840: 10 c8 c8 c8 00 00 00 00 02 00 00 00 ff 00 00 00
+  1850: 00 30 44 00 30 64 00 00 00 00 ff 00 00 00 00 00
+
+ZTIER=0x02 (bit1 PCCE: PWM clock on)  PWMPOL=0x00  PCSGR=0x00
+CTR0-3 = 0xc8, 0xc8, 0xc8, 0xc8
+  PWM0: DCR=0x00 CTR0=0xc8 ->   0.0% duty
+  PWM1: DCR=0x00 CTR0=0xc8 ->   0.0% duty
+  PWM2: DCR=0xc8 CTR1=0xc8 ->  99.5% duty
+  PWM3: DCR=0x00 CTR0=0xc8 ->   0.0% duty
+  PWM4: DCR=0x15 CTR1=0xc8 ->  10.4% duty
+  PWM5: DCR=0x00 CTR0=0xc8 ->   0.0% duty
+  PWM6: DCR=0x00 CTR0=0xc8 ->   0.0% duty
+  PWM7: DCR=0x00 CTR0=0xc8 ->   0.0% duty
+F1 tach raw=0x0000 (I2EC tach reads may be inconsistent per datasheet)

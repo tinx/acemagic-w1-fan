@@ -1,0 +1,132 @@
+[ 4588.077316] acemagic_w1_fan: loading out-of-tree module taints kernel.
+[ 4588.077322] acemagic_w1_fan: module verification failed: signature and/or required key missing - tainting kernel
+[ 4588.078051] acemagic_w1_fan acemagic_w1_fan: IT5570E fan control active (CTR=0xc8, original duty 0xc8)
+hwmon: /sys/class/hwmon/hwmon7
+  pwm1_auto_point1_temp = 50000
+  pwm1_auto_point1_pwm = 64
+  pwm1_auto_point4_temp = 80000
+  pwm1_auto_point4_pwm = 255
+19:05:10 idle      temp= 28C enable=2 pwm1=247 fan=2024 rpm
+19:05:12 idle      temp= 28C enable=2 pwm1=231 fan=2007 rpm
+19:05:14 idle      temp= 28C enable=2 pwm1=223 fan=1930 rpm
+19:05:16 idle      temp= 28C enable=2 pwm1=207 fan=1831 rpm
+19:05:18 idle      temp= 28C enable=2 pwm1=191 fan=1725 rpm
+19:05:20 idle      temp= 28C enable=2 pwm1=175 fan=1610 rpm
+19:05:22 idle      temp= 28C enable=2 pwm1=159 fan=1491 rpm
+19:05:24 idle      temp= 28C enable=2 pwm1=143 fan=1365 rpm
+19:05:26 idle      temp= 28C enable=2 pwm1=127 fan=1238 rpm
+19:05:28 idle      temp= 28C enable=2 pwm1=111 fan=1100 rpm
+19:05:30 idle      temp= 28C enable=2 pwm1= 95 fan= 960 rpm
+19:05:32 idle      temp= 28C enable=2 pwm1= 79 fan= 805 rpm
+19:05:34 idle      temp= 28C enable=2 pwm1= 64 fan= 645 rpm
+19:05:36 idle      temp= 28C enable=2 pwm1= 64 fan= 569 rpm
+19:05:38 idle      temp= 28C enable=2 pwm1= 64 fan= 546 rpm
+19:05:40 load      temp= 28C enable=2 pwm1= 64 fan= 539 rpm
+19:05:42 load      temp= 67C enable=2 pwm1= 64 fan= 538 rpm
+19:05:44 load      temp= 80C enable=2 pwm1=255 fan=1586 rpm
+19:05:46 load      temp= 84C enable=2 pwm1=255 fan=1996 rpm
+19:05:48 load      temp= 84C enable=2 pwm1=255 fan=2028 rpm
+19:05:50 load      temp= 84C enable=2 pwm1=255 fan=2026 rpm
+19:05:52 load      temp= 85C enable=2 pwm1=255 fan=2024 rpm
+19:05:54 load      temp= 85C enable=2 pwm1=255 fan=2032 rpm
+19:05:57 load      temp= 85C enable=2 pwm1=255 fan=2026 rpm
+19:05:59 load      temp= 85C enable=2 pwm1=255 fan=2024 rpm
+19:06:01 load      temp= 85C enable=2 pwm1=255 fan=2026 rpm
+19:06:03 load      temp= 85C enable=2 pwm1=255 fan=2028 rpm
+19:06:05 load      temp= 85C enable=2 pwm1=255 fan=2024 rpm
+19:06:07 load      temp= 85C enable=2 pwm1=255 fan=2028 rpm
+19:06:09 load      temp= 85C enable=2 pwm1=255 fan=2024 rpm
+19:06:11 load      temp= 85C enable=2 pwm1=255 fan=2026 rpm
+19:06:13 load      temp= 85C enable=2 pwm1=255 fan=2022 rpm
+19:06:15 load      temp= 85C enable=2 pwm1=255 fan=2028 rpm
+19:06:17 load      temp= 85C enable=2 pwm1=255 fan=2026 rpm
+19:06:19 load      temp= 85C enable=2 pwm1=255 fan=2032 rpm
+19:06:21 load      temp= 85C enable=2 pwm1=255 fan=2032 rpm
+19:06:23 load      temp= 85C enable=2 pwm1=255 fan=2030 rpm
+19:06:25 load      temp= 85C enable=2 pwm1=255 fan=2032 rpm
+19:06:27 load      temp= 85C enable=2 pwm1=255 fan=2036 rpm
+19:06:29 load      temp= 85C enable=2 pwm1=255 fan=2036 rpm
+19:06:31 load      temp= 85C enable=2 pwm1=255 fan=2030 rpm
+19:06:33 load      temp= 85C enable=2 pwm1=255 fan=2030 rpm
+19:06:35 load      temp= 85C enable=2 pwm1=255 fan=2036 rpm
+19:06:38 load      temp= 85C enable=2 pwm1=255 fan=2036 rpm
+19:06:40 load      temp= 85C enable=2 pwm1=255 fan=2032 rpm
+19:06:42 load      temp= 85C enable=2 pwm1=255 fan=2038 rpm
+19:06:44 load      temp= 85C enable=2 pwm1=255 fan=2034 rpm
+19:06:46 load      temp= 85C enable=2 pwm1=255 fan=2036 rpm
+19:06:48 load      temp= 85C enable=2 pwm1=255 fan=2038 rpm
+19:06:50 load      temp= 85C enable=2 pwm1=255 fan=2038 rpm
+19:06:52 load      temp= 85C enable=2 pwm1=255 fan=2034 rpm
+19:06:54 load      temp= 85C enable=2 pwm1=255 fan=2039 rpm
+19:06:56 load      temp= 85C enable=2 pwm1=255 fan=2039 rpm
+19:06:58 load      temp= 85C enable=2 pwm1=255 fan=2032 rpm
+19:07:00 load      temp= 85C enable=2 pwm1=255 fan=2039 rpm
+19:07:02 load      temp= 85C enable=2 pwm1=255 fan=2039 rpm
+19:07:04 load      temp= 85C enable=2 pwm1=255 fan=2039 rpm
+19:07:06 load      temp= 85C enable=2 pwm1=255 fan=2043 rpm
+19:07:08 load      temp= 85C enable=2 pwm1=255 fan=2045 rpm
+19:07:10 cooldown  temp= 85C enable=2 pwm1=255 fan=2043 rpm
+19:07:12 cooldown  temp= 70C enable=2 pwm1=255 fan=2043 rpm
+19:07:14 cooldown  temp= 61C enable=2 pwm1=239 fan=2028 rpm
+19:07:16 cooldown  temp= 56C enable=2 pwm1=223 fan=1983 rpm
+19:07:18 cooldown  temp= 50C enable=2 pwm1=207 fan=1893 rpm
+19:07:20 cooldown  temp= 48C enable=2 pwm1=191 fan=1786 rpm
+19:07:23 cooldown  temp= 46C enable=2 pwm1=175 fan=1676 rpm
+19:07:25 cooldown  temp= 45C enable=2 pwm1=159 fan=1569 rpm
+19:07:27 cooldown  temp= 44C enable=2 pwm1=143 fan=1449 rpm
+19:07:29 cooldown  temp= 44C enable=2 pwm1=127 fan=1330 rpm
+19:07:31 cooldown  temp= 43C enable=2 pwm1=111 fan=1201 rpm
+19:07:33 cooldown  temp= 43C enable=2 pwm1= 95 fan=1051 rpm
+19:07:35 cooldown  temp= 42C enable=2 pwm1= 79 fan= 878 rpm
+19:07:37 cooldown  temp= 42C enable=2 pwm1= 64 fan= 713 rpm
+19:07:39 cooldown  temp= 42C enable=2 pwm1= 64 fan= 597 rpm
+19:07:41 cooldown  temp= 41C enable=2 pwm1= 64 fan= 563 rpm
+19:07:43 cooldown  temp= 41C enable=2 pwm1= 64 fan= 552 rpm
+19:07:45 cooldown  temp= 41C enable=2 pwm1= 64 fan= 549 rpm
+19:07:47 cooldown  temp= 41C enable=2 pwm1= 64 fan= 548 rpm
+19:07:49 cooldown  temp= 41C enable=2 pwm1= 64 fan= 548 rpm
+19:07:51 cooldown  temp= 41C enable=2 pwm1= 64 fan= 547 rpm
+19:07:53 cooldown  temp= 41C enable=2 pwm1= 64 fan= 548 rpm
+19:07:55 cooldown  temp= 41C enable=2 pwm1= 64 fan= 549 rpm
+19:07:57 cooldown  temp= 41C enable=2 pwm1= 64 fan= 549 rpm
+19:07:59 cooldown  temp= 40C enable=2 pwm1= 64 fan= 549 rpm
+19:08:01 cooldown  temp= 40C enable=2 pwm1= 64 fan= 549 rpm
+19:08:03 cooldown  temp= 40C enable=2 pwm1= 64 fan= 549 rpm
+19:08:05 cooldown  temp= 40C enable=2 pwm1= 64 fan= 549 rpm
+19:08:07 cooldown  temp= 40C enable=2 pwm1= 64 fan= 549 rpm
+19:08:09 cooldown  temp= 40C enable=2 pwm1= 64 fan= 549 rpm
+19:08:11 cooldown  temp= 40C enable=2 pwm1= 64 fan= 550 rpm
+19:08:13 cooldown  temp= 40C enable=2 pwm1= 64 fan= 549 rpm
+19:08:15 cooldown  temp= 40C enable=2 pwm1= 64 fan= 550 rpm
+19:08:17 cooldown  temp= 40C enable=2 pwm1= 64 fan= 550 rpm
+19:08:19 cooldown  temp= 40C enable=2 pwm1= 64 fan= 550 rpm
+19:08:21 cooldown  temp= 40C enable=2 pwm1= 64 fan= 550 rpm
+19:08:23 cooldown  temp= 40C enable=2 pwm1= 64 fan= 550 rpm
+19:08:25 cooldown  temp= 40C enable=2 pwm1= 64 fan= 550 rpm
+19:08:27 cooldown  temp= 40C enable=2 pwm1= 64 fan= 550 rpm
+19:08:29 cooldown  temp= 40C enable=2 pwm1= 64 fan= 550 rpm
+19:08:31 cooldown  temp= 40C enable=2 pwm1= 64 fan= 550 rpm
+19:08:33 cooldown  temp= 40C enable=2 pwm1= 64 fan= 550 rpm
+19:08:35 cooldown  temp= 40C enable=2 pwm1= 64 fan= 550 rpm
+19:08:37 cooldown  temp= 40C enable=2 pwm1= 64 fan= 550 rpm
+19:08:39 cooldown  temp= 39C enable=2 pwm1= 64 fan= 550 rpm
+19:08:42 full      temp= 39C enable=0 pwm1=255 fan= 549 rpm
+19:08:44 full      temp= 39C enable=0 pwm1=255 fan=1891 rpm
+19:08:46 full      temp= 39C enable=0 pwm1=255 fan=2043 rpm
+19:08:48 full      temp= 39C enable=0 pwm1=255 fan=2049 rpm
+19:08:50 full      temp= 39C enable=0 pwm1=255 fan=2049 rpm
+19:08:52 manual    temp= 39C enable=1 pwm1=128 fan=2051 rpm
+19:08:54 manual    temp= 39C enable=1 pwm1=128 fan=1336 rpm
+19:08:56 manual    temp= 39C enable=1 pwm1=128 fan=1232 rpm
+19:08:58 manual    temp= 38C enable=1 pwm1=128 fan=1214 rpm
+19:09:00 manual    temp= 38C enable=1 pwm1=128 fan=1209 rpm
+wrote pwm1=20, expect clamp to min_pwm:
+19:09:02 manual    temp= 38C enable=1 pwm1= 64 fan=1206 rpm
+19:09:04 manual    temp= 38C enable=1 pwm1= 64 fan= 728 rpm
+19:09:06 manual    temp= 38C enable=1 pwm1= 64 fan= 605 rpm
+19:09:08 auto      temp= 38C enable=2 pwm1= 64 fan= 566 rpm
+19:09:10 auto      temp= 38C enable=2 pwm1= 64 fan= 554 rpm
+19:09:12 auto      temp= 37C enable=2 pwm1= 64 fan= 551 rpm
+unloaded; firmware duty should be back to 100 %:
+  PWM2: DCR=0xc8 CTR1=0xc8 ->  99.5% duty
+F1 tach raw=0x0000 (I2EC tach reads may be inconsistent per datasheet)

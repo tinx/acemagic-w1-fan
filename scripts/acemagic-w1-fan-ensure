@@ -1,0 +1,19 @@
+#!/bin/sh
+# Make sure the acemagic_w1_fan module exists for the running kernel (building it
+# through DKMS if not), then load it. Until it loads, the fan stays at the
+# firmware's 100 % duty, so every failure here is loud but safe.
+set -eu
+
+MOD=acemagic_w1_fan
+KVER=$(uname -r)
+
+if ! modinfo -k "$KVER" "$MOD" >/dev/null 2>&1; then
+    echo "$MOD not built for $KVER, running dkms autoinstall"
+    if [ ! -d "/lib/modules/$KVER/build" ]; then
+        echo "kernel headers for $KVER missing (install linux-headers-$KVER)" >&2
+        exit 1
+    fi
+    dkms autoinstall -k "$KVER"
+fi
+
+modprobe "$MOD"

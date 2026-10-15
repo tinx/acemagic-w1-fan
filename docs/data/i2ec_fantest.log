@@ -1,0 +1,36 @@
+18:16:23 === fan test: DCR2=0xc8 CTR1=0xc8 rpm=2025 temp=27C
+18:16:23 --- DCR2 = 0xa0 (80%)
+18:16:24   t+ 1s rpm= 1852 temp=27C DCR2=0xa0
+18:16:25   t+ 2s rpm= 1806 temp=27C DCR2=0xa0
+18:16:26   t+ 3s rpm= 1792 temp=27C DCR2=0xa0
+18:16:27   t+ 4s rpm= 1788 temp=27C DCR2=0xa0
+18:16:28   t+ 5s rpm= 1783 temp=27C DCR2=0xa0
+18:16:29   t+ 6s rpm= 1786 temp=27C DCR2=0xa0
+18:16:30   t+ 7s rpm= 1783 temp=27C DCR2=0xa0
+18:16:31   t+ 8s rpm= 1781 temp=27C DCR2=0xa0
+18:16:32   t+ 9s rpm= 1789 temp=27C DCR2=0xa0
+18:16:33   t+10s rpm= 1786 temp=27C DCR2=0xa0
+18:16:33 --- DCR2 = 0x78 (60%)
+18:16:34   t+ 1s rpm= 1542 temp=27C DCR2=0x78
+18:16:35   t+ 2s rpm= 1455 temp=27C DCR2=0x78
+18:16:36   t+ 3s rpm= 1420 temp=27C DCR2=0x78
+18:16:37   t+ 4s rpm= 1407 temp=27C DCR2=0x78
+18:16:38   t+ 5s rpm= 1405 temp=27C DCR2=0x78
+18:16:39   t+ 6s rpm= 1402 temp=27C DCR2=0x78
+18:16:40   t+ 7s rpm= 1404 temp=27C DCR2=0x78
+18:16:41   t+ 8s rpm= 1403 temp=27C DCR2=0x78
+18:16:42   t+ 9s rpm= 1402 temp=27C DCR2=0x78
+18:16:43   t+10s rpm= 1405 temp=27C DCR2=0x78
+18:16:43 --- DCR2 = 0x50 (40%)
+18:16:44   t+ 1s rpm= 1152 temp=27C DCR2=0x50
+18:16:45   t+ 2s rpm= 1042 temp=27C DCR2=0x50
+18:16:46   t+ 3s rpm=  993 temp=27C DCR2=0x50
+18:16:47   t+ 4s rpm=  971 temp=27C DCR2=0x50
+18:16:48   t+ 5s rpm=  961 temp=27C DCR2=0x50
+18:16:49   t+ 6s rpm=  955 temp=27C DCR2=0x50
+18:16:50   t+ 7s rpm=  954 temp=27C DCR2=0x50
+18:16:51   t+ 8s rpm=  954 temp=27C DCR2=0x50
+18:16:52   t+ 9s rpm=  952 temp=27C DCR2=0x50
+18:16:53   t+10s rpm=  952 temp=27C DCR2=0x50
+18:16:53 restored DCR2=0xc8 (OK)
+18:16:58 rpm 5 s after restore: 2027

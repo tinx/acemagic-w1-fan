@@ -1,0 +1,12 @@
+[Unit]
+Description=Acemagic W1 fan control (build module if missing, then load)
+After=local-fs.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/sbin/acemagic-w1-fan-ensure
+TimeoutStartSec=10min
+
+[Install]
+WantedBy=multi-user.target

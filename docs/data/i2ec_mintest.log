@@ -1,0 +1,67 @@
+18:30:16 === min-duty test: DCR2=0xc8 CTR1=0xc8 rpm=2021 temp=27C
+18:30:16 --- DCR2 = 0x46 (35%)
+18:30:17   t+1s rpm= 1324 temp=27C
+18:30:18   t+2s rpm= 1058 temp=27C
+18:30:19   t+3s rpm=  933 temp=27C
+18:30:20   t+4s rpm=  878 temp=27C
+18:30:21   t+5s rpm=  851 temp=27C
+18:30:22   t+6s rpm=  838 temp=27C
+18:30:23   t+7s rpm=  832 temp=27C
+18:30:24   t+8s rpm=  829 temp=27C
+18:30:24 --- DCR2 = 0x3c (30%)
+18:30:25   t+1s rpm=  760 temp=27C
+18:30:26   t+2s rpm=  725 temp=27C
+18:30:27   t+3s rpm=  706 temp=27C
+18:30:28   t+4s rpm=  696 temp=27C
+18:30:29   t+5s rpm=  691 temp=27C
+18:30:30   t+6s rpm=  689 temp=27C
+18:30:31   t+7s rpm=  688 temp=27C
+18:30:32   t+8s rpm=  687 temp=27C
+18:30:32 --- DCR2 = 0x32 (25%)
+18:30:33   t+1s rpm=  619 temp=27C
+18:30:34   t+2s rpm=  582 temp=27C
+18:30:35   t+3s rpm=  562 temp=27C
+18:30:36   t+4s rpm=  550 temp=27C
+18:30:37   t+5s rpm=  544 temp=27C
+18:30:38   t+6s rpm=  541 temp=27C
+18:30:39   t+7s rpm=  539 temp=27C
+18:30:40   t+8s rpm=  538 temp=27C
+18:30:40 --- DCR2 = 0x28 (20%)
+18:30:41   t+1s rpm=  476 temp=27C
+18:30:42   t+2s rpm=  432 temp=27C
+18:30:43   t+3s rpm=  408 temp=27C
+18:30:44   t+4s rpm=  394 temp=27C
+18:30:45   t+5s rpm=  386 temp=27C
+18:30:46   t+6s rpm=  381 temp=27C
+18:30:47   t+7s rpm=  379 temp=27C
+18:30:48   t+8s rpm=  377 temp=27C
+18:30:48 --- DCR2 = 0x1e (15%)
+18:30:49   t+1s rpm=  318 temp=27C
+18:30:50   t+2s rpm=  271 temp=27C
+18:30:51   t+3s rpm=  244 temp=27C
+18:30:52   t+4s rpm=  225 temp=27C
+18:30:53   t+5s rpm=  211 temp=27C
+18:30:54   t+6s rpm=  204 temp=27C
+18:30:55   t+7s rpm=  197 temp=27C
+18:30:56   t+8s rpm=  194 temp=27C
+18:30:56 --- DCR2 = 0x14 (10%)
+18:30:57   t+1s rpm=  152 temp=27C
+18:30:58   t+2s rpm=   72 temp=27C
+18:30:59   t+3s rpm=    0 temp=27C
+18:31:00   t+4s rpm=    0 temp=27C
+18:31:01   t+5s rpm=    0 temp=27C
+18:31:02   t+6s rpm=   44 temp=27C
+18:31:03   t+7s rpm=    0 temp=27C
+18:31:04   t+8s rpm=    0 temp=27C
+18:31:04   STALLED at 0x14
+18:31:04 --- DCR2 = 0x1e (15%)
+18:31:05   t+1s rpm=    0 temp=27C
+18:31:06   t+2s rpm=  102 temp=28C
+18:31:07   t+3s rpm=  114 temp=28C
+18:31:08   t+4s rpm=  141 temp=28C
+18:31:09   t+5s rpm=  154 temp=28C
+18:31:10   t+6s rpm=  167 temp=28C
+18:31:10   RESTARTED at 0x1e (15%), rpm=167
+18:31:10 restored DCR2=0xc8 (OK)
+18:31:15 rpm 5 s after restore: 2017
+18:31:15 summary (duty -> steady rpm): 0x46->832, 0x3c->688, 0x32->539, 0x28->379, 0x1e->197, 0x14->0
