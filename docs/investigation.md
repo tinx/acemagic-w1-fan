@@ -61,7 +61,7 @@ EC runs the fan at a **fixed ~2000 RPM regardless of temperature** (no curve). C
   (restore 0xC8 on exit, on errors, and re-apply after resume).
 - Min-duty test (`i2ec_mintest.log`): 35%=830, 30%=690, 25%=540, 20%=380, 15%=195 RPM,
   **10% stalls**; restart from stop at 15% is slow (>6 s). Driver floor 20%, default min 25%.
-- Untested: behaviour across suspend/resume.
+- Suspend/resume: tested OK, see "Open items" below.
 
 ## Kernel module (`driver/`, `scripts/`, `install.sh`, `uninstall.sh`)
 - `acemagic_w1_fan`: hwmon fan1_input, temp1_input (EC 0x26), pwm1, pwm1_enable
@@ -86,14 +86,18 @@ EC runs the fan at a **fixed ~2000 RPM regardless of temperature** (no curve). C
 - `install.sh` ran twice on 2026-10-15: DKMS build installed for 7.0.0-38, service enabled,
   module loaded once. First run `RESULT: changed`, second run `RESULT: ok`. DKMS generated a
   MOK key pair (`/var/lib/shim-signed/mok/`) on first use and signed the module with it.
-- Behaviour across suspend/resume.
+- Suspend/resume tested 2026-10-15 (`tools/suspend_test.sh`, `docs/data/suspend_test.log`):
+  s2idle for ~31 s via rtcwake. The fan was nearly stopped on wake (EC turns it off in sleep),
+  then spun up straight to the auto setting (pwm1=64, ~538 RPM within ~5 s). No driver errors.
+  The EC reported a bogus 12 C for ~1 s after resume (harmless here: it maps to the minimum).
 - After any BIOS/EC update: rerun `tools/i2ec_read.py` and check that I2EC is still read-write and
   that PWM2/CTR1/tach2 look the same before trusting the module (it refuses to load if the
   basic layout checks fail, but can't detect a re-wired fan channel).
 
 ## Files
 - `docs/data/` — raw results quoted above (`ec_idle.txt`, `eclog.csv`, `probe.log`,
-  `i2ec_dump.txt`, `i2ec_fantest.log`, `i2ec_mintest.log`, `module_test.log`).
+  `i2ec_dump.txt`, `i2ec_fantest.log`, `i2ec_mintest.log`, `module_test.log`,
+  `suspend_test.log`).
 - `tools/` — the scripts that produced them; all run with `sudo` and write output next to
   themselves:
   - `collect.sh`: ACPI tables and EC dump (read-only).
@@ -103,5 +107,6 @@ EC runs the fan at a **fixed ~2000 RPM regardless of temperature** (no curve). C
   - `i2ec_fantest.py` and `i2ec_mintest.py`: DCR2 step tests (write DCR2 only).
   - `module_test.sh`: test-load the in-tree build (`make -C driver`) without installing it
     (`sudo bash`).
+  - `suspend_test.sh`: s2idle suspend/resume check of the installed module (run via `systemd-run`).
 - Not in the repo: the IT5570 datasheet (`IT5570_A_V0.3.1_U.pdf`) and the ACPI dumps/decompiles
   (`acpi/`, `dsl/`); both are machine-local.

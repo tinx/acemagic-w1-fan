@@ -1,0 +1,40 @@
+19:54:20.517 before  temp= 35C enable=2 pwm1= 64 fan= 537 rpm
+19:54:21.537 before  temp= 35C enable=2 pwm1= 64 fan= 538 rpm
+19:54:22.561 before  temp= 35C enable=2 pwm1= 64 fan= 538 rpm
+19:54:23.586 before  temp= 35C enable=2 pwm1= 64 fan= 538 rpm
+19:54:24.611 before  temp= 35C enable=2 pwm1= 64 fan= 538 rpm
+19:54:25 suspending (s2idle) for 30s
+rtcwake: assuming RTC uses UTC ...
+rtcwake: wakeup from "freeze" using /dev/rtc0 at Thu Oct 15 19:54:56 2026
+19:54:57 resumed
+19:54:57.060 after   temp= 12C enable=2 pwm1= 64 fan= 183 rpm
+19:54:57.579 after   temp= 12C enable=2 pwm1= 64 fan= 272 rpm
+19:54:58.104 after   temp= 12C enable=2 pwm1= 64 fan= 347 rpm
+19:54:58.627 after   temp= 28C enable=2 pwm1= 64 fan= 394 rpm
+19:54:59.149 after   temp= 28C enable=2 pwm1= 64 fan= 436 rpm
+19:54:59.674 after   temp= 33C enable=2 pwm1= 64 fan= 464 rpm
+19:55:00.197 after   temp= 33C enable=2 pwm1= 64 fan= 484 rpm
+19:55:00.722 after   temp= 33C enable=2 pwm1= 64 fan= 497 rpm
+19:55:01.249 after   temp= 34C enable=2 pwm1= 64 fan= 510 rpm
+19:55:01.772 after   temp= 34C enable=2 pwm1= 64 fan= 518 rpm
+19:55:02.295 after   temp= 34C enable=2 pwm1= 64 fan= 524 rpm
+19:55:02.820 after   temp= 35C enable=2 pwm1= 64 fan= 529 rpm
+19:55:03.341 after   temp= 35C enable=2 pwm1= 64 fan= 531 rpm
+19:55:03.863 after   temp= 35C enable=2 pwm1= 64 fan= 534 rpm
+19:55:04.385 after   temp= 35C enable=2 pwm1= 64 fan= 535 rpm
+19:55:04.905 after   temp= 35C enable=2 pwm1= 64 fan= 536 rpm
+19:55:05.427 after   temp= 35C enable=2 pwm1= 64 fan= 537 rpm
+19:55:05.950 after   temp= 35C enable=2 pwm1= 64 fan= 538 rpm
+19:55:06.475 after   temp= 35C enable=2 pwm1= 64 fan= 538 rpm
+19:55:06.999 after   temp= 35C enable=2 pwm1= 64 fan= 538 rpm
+--- kernel log since test start:
+Oct 15 19:54:25 bobkitten kernel: PM: suspend entry (s2idle)
+Oct 15 19:54:57 bobkitten kernel: Freezing user space processes
+Oct 15 19:54:57 bobkitten kernel: Freezing user space processes completed (elapsed 0.001 seconds)
+Oct 15 19:54:57 bobkitten kernel: Freezing remaining freezable tasks
+Oct 15 19:54:57 bobkitten kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+Oct 15 19:54:57 bobkitten kernel: ACPI: EC: interrupt blocked
+Oct 15 19:54:57 bobkitten kernel: ACPI: EC: interrupt unblocked
+Oct 15 19:54:57 bobkitten kernel: Restarting tasks: Starting
+Oct 15 19:54:57 bobkitten kernel: Restarting tasks: Done
+Oct 15 19:54:57 bobkitten kernel: PM: suspend exit
